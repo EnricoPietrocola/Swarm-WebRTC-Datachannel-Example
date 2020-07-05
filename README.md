@@ -1,6 +1,8 @@
 # Swarm-WebRTC-Datachannel-Example
 Mesh WebRTC Topology example in Node JS with webrtc-swarm and signalhub
 
+Before launching communication.js make sure your signalhub is listening (e.g. signalhub listen -p 8080)
+
 * [signalhub](https://www.npmjs.com/package/signalhub)
 * [webrtc-swarm](https://www.npmjs.com/package/signalhub)
 
