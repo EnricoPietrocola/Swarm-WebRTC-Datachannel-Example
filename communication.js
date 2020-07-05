@@ -31,6 +31,6 @@ swarm.on('disconnect', function (peer, id) {
 })
 
 setTimeout(() => swarm.peers.forEach(function (peer) {
-    console.log("saying hi to the others")
+    console.log('saying hi to the others')
     peer.send(JSON.stringify('hi'))
 }), 10000);
